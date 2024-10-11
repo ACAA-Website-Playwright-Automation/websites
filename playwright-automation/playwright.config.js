@@ -66,7 +66,11 @@ module.exports = defineConfig({
     /* Test against mobile viewports. */
     {
       name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
+      use: {
+        browserName: 'chromium', // Use Chromium (the engine for Chrome)
+        channel: 'chrome',        // Specify to use the installed full version of Chrome
+        ...devices['Pixel 5'],   // Apply mobile emulation settings for Pixel 5
+      },
     },
     // {
     //   name: 'Mobile Safari',
@@ -79,14 +83,8 @@ module.exports = defineConfig({
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
     {
-      // name: 'Google Chrome',
-      // use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-      name: 'Mobile Chrome',
-      use: {
-        browserName: 'chromium', // Use Chromium (the engine for Chrome)
-        channel: 'chrome',        // Specify to use the installed full version of Chrome
-        ...devices['Pixel 5'],   // Apply mobile emulation settings for Pixel 5
-      },
+      name: 'Google Chrome',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
   ],
 
