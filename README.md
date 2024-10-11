@@ -39,7 +39,7 @@ Before you can run the tests, make sure you have the following installed:
 
 ## Running Tests
 
-To run the tests, use the following command:
+To run the tests, use the following commands for each project:
 
 ### Neighborhood91
 
@@ -61,21 +61,37 @@ npx playwright test Blueskypit/blueskypit.spec.js
 
 ### Flypittsburgh
 
+#### General Tests
+
 ```bash
 npx playwright test flypittsburgh/Fly_PIT/fly_pit.spec.js
 npx playwright test flypittsburgh/Fly_ACAA/fly_acaa.spec.js
 npx playwright test flypittsburgh/Fly_AGC/fly_agc.spec.js
+```
+
+#### API Response Test
+
+```bash
 npx playwright test flypittsburgh/Flight_Api_Response/flight_api_response.spec.js
+```
+
+#### Flight Filter Test
+
+```bash
 npx playwright test flypittsburgh/Filters_Search/filters_search.spec.js
 ```
 
 ## Show the Report
+
+To view the test report, use the command:
 
 ```bash
 npx playwright show-report
 ```
 
 ## Update the Screenshots
+
+To update the screenshots, run the following commands for each project:
 
 ### Neighborhood91
 
@@ -97,8 +113,22 @@ npx playwright test Blueskypit/blueskypit.spec.js --update-snapshots
 
 ### Flypittsburgh
 
+#### General Tests
+
 ```bash
 npx playwright test flypittsburgh/Fly_PIT/fly_pit.spec.js --update-snapshots
 npx playwright test flypittsburgh/Fly_ACAA/fly_acaa.spec.js --update-snapshots
 npx playwright test flypittsburgh/Fly_AGC/fly_agc.spec.js --update-snapshots
+```
+
+#### API Response Test
+
+```bash
+npx playwright test flypittsburgh/Flight_Api_Response/flight_api_response.spec.js --update-snapshots
+```
+
+#### Flight Filter Test
+
+```bash
+npx playwright test flypittsburgh/Filters_Search/filters_search.spec.js --update-snapshots
 ```
