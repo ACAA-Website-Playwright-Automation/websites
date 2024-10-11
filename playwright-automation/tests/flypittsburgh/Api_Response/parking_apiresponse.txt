@@ -1,0 +1,123 @@
+Timestamp: 10/9/2024, 4:16:04 PM
+Response Status: 200
+Response Body: [
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "43f822cd-b573-4e53-9da9-3cbcb187df66",
+    "Date": "2024-10-09T06:44:28",
+    "lotLongName": "Short Term Lot",
+    "lotShortName": "ST",
+    "percentFilled": 92,
+    "sortOrder": 1
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "7370329e-8e80-4d7d-98ab-2059caf1b44d",
+    "Date": "2024-10-09T06:44:28",
+    "lotLongName": "Long Term Lot",
+    "lotShortName": "LT",
+    "percentFilled": 92,
+    "sortOrder": 2
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "6336127f-a415-4478-bc3d-0b76b50521f9",
+    "Date": "2024-10-09T06:44:28",
+    "lotLongName": "Extended Term Lot",
+    "lotShortName": "ET",
+    "percentFilled": 53,
+    "sortOrder": 3
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "5a95046a-95e7-45a5-8dbe-46dd155e1b04",
+    "Date": "2024-10-09T06:44:28",
+    "lotLongName": "Economy Lot",
+    "lotShortName": "EC",
+    "percentFilled": 62,
+    "sortOrder": 4
+  }
+]
+
+Timestamp: 10/10/2024, 5:57:53 PM
+Response Status: 200
+Response Body: [
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "414a8f9c-b1ca-45ca-8d0a-e5232310ab1b",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Short Term Lot",
+    "lotShortName": "ST",
+    "percentFilled": 86,
+    "sortOrder": 1
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "5a3b1a29-4e79-4282-9483-93a74c77ed95",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Long Term Lot",
+    "lotShortName": "LT",
+    "percentFilled": 96,
+    "sortOrder": 2
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "e3492677-c56b-4c1b-a854-c138b3e2f387",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Extended Term Lot",
+    "lotShortName": "ET",
+    "percentFilled": 56,
+    "sortOrder": 3
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "d3ff04d1-f999-4513-85d3-8e3f4aa3ba22",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Economy Lot",
+    "lotShortName": "EC",
+    "percentFilled": 67,
+    "sortOrder": 4
+  }
+]
+
+Timestamp: 10/10/2024, 5:57:57 PM
+Response Status: 200
+Response Body: [
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "08e30bba-5e2b-4b89-aa32-4ac2d93ee3c1",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Short Term Lot",
+    "lotShortName": "ST",
+    "percentFilled": 86,
+    "sortOrder": 1
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "73b58cc7-6f79-4442-827b-a58688abaf20",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Long Term Lot",
+    "lotShortName": "LT",
+    "percentFilled": 96,
+    "sortOrder": 2
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "e09bacf9-f89d-4805-9595-55b22082aee2",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Extended Term Lot",
+    "lotShortName": "ET",
+    "percentFilled": 56,
+    "sortOrder": 3
+  },
+  {
+    "@odata.etag": "",
+    "ItemInternalId": "99205cb2-ab37-4fe0-bfef-a96bbf6de7a4",
+    "Date": "2024-10-10T08:24:27",
+    "lotLongName": "Economy Lot",
+    "lotShortName": "EC",
+    "percentFilled": 67,
+    "sortOrder": 4
+  }
+]
+

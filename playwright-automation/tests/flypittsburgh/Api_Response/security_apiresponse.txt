@@ -1,0 +1,78 @@
+Timestamp: 10/9/2024, 4:16:03 PM
+Response Status: 200
+Response Body: {
+  "ResultSets": {
+    "Table1": [
+      {
+        "AsOfDate_UTC": "2024-10-09T10:47:10.6451811",
+        "Main_First": 1,
+        "Main_First_Status": 1,
+        "Main_Gen": 15,
+        "Main_Gen_Status": 1,
+        "Main_Pre": 1,
+        "Main_Pre_Status": 1,
+        "Alt_Gen": 2,
+        "Alt_Gen_Status": 0,
+        "Alt_Pre": 1,
+        "Alt_Pre_Status": 1,
+        "Peak_Hours_Status": 1,
+        "Main_Gen_Peak": 7,
+        "Alt_Pre_Peak": 1
+      }
+    ]
+  },
+  "OutputParameters": {}
+}
+
+Timestamp: 10/10/2024, 5:57:50 PM
+Response Status: 200
+Response Body: {
+  "ResultSets": {
+    "Table1": [
+      {
+        "AsOfDate_UTC": "2024-10-10T12:28:51.4742082",
+        "Main_First": 2,
+        "Main_First_Status": 1,
+        "Main_Gen": 1,
+        "Main_Gen_Status": 1,
+        "Main_Pre": 1,
+        "Main_Pre_Status": 1,
+        "Alt_Gen": 2,
+        "Alt_Gen_Status": 0,
+        "Alt_Pre": 1,
+        "Alt_Pre_Status": 0,
+        "Peak_Hours_Status": 0,
+        "Main_Gen_Peak": 1,
+        "Alt_Pre_Peak": 1
+      }
+    ]
+  },
+  "OutputParameters": {}
+}
+
+Timestamp: 10/10/2024, 5:57:57 PM
+Response Status: 200
+Response Body: {
+  "ResultSets": {
+    "Table1": [
+      {
+        "AsOfDate_UTC": "2024-10-10T12:29:01.8253388",
+        "Main_First": 2,
+        "Main_First_Status": 1,
+        "Main_Gen": 1,
+        "Main_Gen_Status": 1,
+        "Main_Pre": 1,
+        "Main_Pre_Status": 1,
+        "Alt_Gen": 2,
+        "Alt_Gen_Status": 0,
+        "Alt_Pre": 1,
+        "Alt_Pre_Status": 0,
+        "Peak_Hours_Status": 0,
+        "Main_Gen_Peak": 1,
+        "Alt_Pre_Peak": 1
+      }
+    ]
+  },
+  "OutputParameters": {}
+}
+
