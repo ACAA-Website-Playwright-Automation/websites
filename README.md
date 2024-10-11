@@ -121,14 +121,5 @@ npx playwright test flypittsburgh/Fly_ACAA/fly_acaa.spec.js --update-snapshots
 npx playwright test flypittsburgh/Fly_AGC/fly_agc.spec.js --update-snapshots
 ```
 
-#### API Response Test
 
-```bash
-npx playwright test flypittsburgh/Flight_Api_Response/flight_api_response.spec.js --update-snapshots
-```
 
-#### Flight Filter Test
-
-```bash
-npx playwright test flypittsburgh/Filters_Search/filters_search.spec.js --update-snapshots
-```
