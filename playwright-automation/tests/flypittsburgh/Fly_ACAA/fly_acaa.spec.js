@@ -143,19 +143,25 @@ test.describe('ACAA test', () => {
       }  
       
       //Take body height for scrolling
-      const bodyHandle = await page.$('body');
-      const bodyBoundingBox = await bodyHandle.boundingBox();
-      await bodyHandle.dispose();
+      // const bodyHandle = await page.$('body');
+      // const bodyBoundingBox = await bodyHandle.boundingBox();
+      // await bodyHandle.dispose();
 
-      const fullHeight = bodyBoundingBox.height;
-      const viewportHeight = 720;
-      const scrollStep = viewportHeight;
+      // const fullHeight = bodyBoundingBox.height;
+      // const viewportHeight = 720;
+      // const scrollStep = viewportHeight;
 
 
-      for (let scrollY = fullHeight; scrollY >= 0; scrollY -= scrollStep) {
-        await page.evaluate((scrollY) => window.scrollTo(0, scrollY), scrollY);
-        await page.waitForTimeout(3000);
-      }
+      // for (let scrollY = fullHeight; scrollY >= 0; scrollY -= scrollStep) {
+      //   await page.evaluate((scrollY) => window.scrollTo(0, scrollY), scrollY);
+      //   await page.waitForTimeout(3000);
+      // }
+      await page.evaluate(async () => {
+        for (let i = 0; i < document.body.scrollHeight; i += 200) {
+          window.scrollTo(0, i);
+          await new Promise(resolve => setTimeout(resolve, 200)); 
+        }
+      });
       
 
       //Take a screenshot
