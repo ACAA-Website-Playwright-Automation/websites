@@ -60,6 +60,15 @@ test.describe('Neighborhood91 test', () => {
             element.style.display = 'none'; 
         }
       });
+     
+    //hide the location marker
+    await page.evaluate(() => {
+      const markers = document.querySelectorAll('.awb-image-hotspots-wrapper a i.fa-map-marker-alt.fas');
+      markers.forEach(marker => {
+        marker.style.display = 'none';
+      });
+    });
+      
       
       //Take body height for scrolling
       // const bodyHandle = await page.$('body');
